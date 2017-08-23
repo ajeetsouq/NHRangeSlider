@@ -98,7 +98,7 @@ open class NHRangeSliderView: UIView {
     }
     
     /// stepValue. If set, will snap to discrete step points along the slider . Default to nil
-    @IBInspectable open var stepValue: Double? = nil {
+   open var stepValue: Double? = nil {
         didSet {
             self.rangeSlider?.stepValue = stepValue
         }
